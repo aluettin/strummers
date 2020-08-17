@@ -87,6 +87,198 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /***** Mobile styles *****/
+
+   /***** Base header - footer styles *****/
+
+   header,
+   footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /***** Header styles *****/
+
+   header {
+
+   }
+
+   .header-divider {
+
+   }
+
+   header .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   header nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   header nav ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   /***** Hero area styles *****/
+
+   #hero-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /***** Newsletter area styles *****/
+
+   aside {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   #newsletter {
+
+   }
+
+   .form-description {
+
+   }
+
+   .form {
+
+   }
+
+   /***** Features area styles *****/
+
+   #features {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .features-items {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   article {
+
+   }
+
+   .fontawesome-icon {
+
+   }
+
+   .features-item-description {
+
+   }
+
+   /***** Reviews area styles *****/
+
+   #reviews {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .reviews h2 {
+
+   }
+
+   article {
+
+   }
+
+   .reviews h3 {
+
+   }
+
+   /***** About Page Styles *****/
+
+   #mission {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .mission-content {
+
+   }
+
+   #map {
+
+   }
+
+   #contact-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   #faq {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   #faq .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     flex-flow: row wrap;
+   }
+
+   /***** Footer styles *****/
+
+   .footer-content {
+
+   }
+
+   address .contact {
+
+   }
+
+   address h4 {
+
+   }
+
+   .social {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .social-icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .copyright {
+
+   }
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +452,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
