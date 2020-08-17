@@ -102,11 +102,11 @@ textarea {
    /***** Header styles *****/
 
    header {
-
+     padding: 15px 0;
    }
 
    .header-divider {
-
+     width: 100%;
    }
 
    header .content-wrapper {
@@ -114,6 +114,8 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
+     width: 100%;
    }
 
    header nav {
@@ -121,12 +123,15 @@ textarea {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
+     padding: 15px 0;
+     width: 60%;
    }
 
    header nav ul {
      display: flex;
      justify-content: center;
      align-items: center;
+     width: 45%;
    }
 
    /***** Hero area styles *****/
@@ -136,6 +141,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding-top: 50px;
    }
 
    /***** Newsletter area styles *****/
@@ -145,6 +151,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding: 15px 0 50px 0;
    }
 
    #newsletter {
@@ -166,6 +173,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding: 50px 0;
    }
 
    .features-items {
@@ -175,8 +183,12 @@ textarea {
      flex-flow: row wrap;
    }
 
-   article {
+   #features article {
+     width: 55%;
+   }
 
+   #features p {
+     margin: 0;
    }
 
    .fontawesome-icon {
@@ -194,6 +206,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding: 50px 0;
    }
 
    .reviews h2 {
@@ -248,8 +261,20 @@ textarea {
 
    /***** Footer styles *****/
 
+   footer {
+     padding-top: 50px;
+   }
+
+   footer .content-wrapper {
+     width: 55%;
+   }
+
    .footer-content {
 
+   }
+
+   footer p {
+     margin: 0;
    }
 
    address .contact {
