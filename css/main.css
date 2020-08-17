@@ -99,6 +99,10 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .content-wrapper {
+     padding: 0 20px;
+   }
+
    /***** Header styles *****/
 
    header {
@@ -142,6 +146,10 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      padding-top: 50px;
+   }
+
+   #hero-area h1 {
+     margin: 0;
    }
 
    /***** Newsletter area styles *****/
@@ -266,6 +274,7 @@ textarea {
    }
 
    footer .content-wrapper {
+     text-align: center;
      width: 55%;
    }
 
