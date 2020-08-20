@@ -222,8 +222,9 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+     background: url('../img/jake-melara-30679-unsplash.jpg') center center no-repeat #333;
      background-size: cover;
+     height: 300px;
    }
 
    #hero-area .content-wrapper {
@@ -351,9 +352,21 @@ address {
      flex-flow: row wrap;
    }
 
-   #map {
+   #map figure {
+     width: 100%;
+     height: 0;
+     padding-bottom: 75%;
+     overflow: hidden;
+     position: relative;
+}
 
-   }
+  #map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
    #contact-section {
      display: flex;
@@ -557,6 +570,10 @@ address {
 
    /***** Homepage tablet styles *****/
 
+   #hero-area {
+     height: 400px;
+   }
+
    #hero-area .content-wrapper {
      display: flex;
      justify-content: flex-start;
@@ -699,6 +716,7 @@ address {
    /***** Homepage desktop styles *****/
 
    #hero-area {
+     height: 600px;
      padding: 0;
    }
 
