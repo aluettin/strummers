@@ -162,7 +162,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background-color: #202322;
+     background-color: #313234;
    }
 
    /***** Header styles *****/
@@ -177,6 +177,20 @@ address {
      align-items: center;
      flex-flow: row wrap;
      margin: 0;
+     width: 100%;
+   }
+
+   header .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row nowrap;
+   }
+
+   header .logo p {
+     font-family: 'Lexend Peta', sans-serif;
+     font-size: 2em;
+     text-transform: uppercase;
    }
 
    header figure {
@@ -220,9 +234,9 @@ address {
    #hero-area {
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
      flex-flow: row wrap;
-     background: url('../img/jake-melara-30679-unsplash.jpg') #333;
+     background: url('../img/ukulele-hero1.jpg') #333;
      background-position: center;
      background-size: cover;
      min-height: 500px;
@@ -230,7 +244,7 @@ address {
 
    #hero-area h1 {
      font-family: 'Poppins', Helvetica, Arial, sans-serif;
-     font-size: 2.25em;
+     font-size: 2.2em;
      font-weight: 500;
      line-height: 1.2;
    }
@@ -240,7 +254,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: #527158;
+     background: #019eaf;
    }
 
    aside .form {
@@ -275,11 +289,12 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+     background: url('../img/ukulele-aside2.jpg') center no-repeat #333;
      background-size: cover;
    }
 
    #features h2 {
+     line-height: 1.3;
      margin-bottom: 50px;
    }
 
@@ -309,16 +324,16 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: #2a423a;
+     background: #047a86;
    }
 
    #reviews h2 {
      margin-bottom: 40px;
-     line-height: 1;
+     line-height: 1.3;
    }
 
    #reviews h3 {
-     width: 55%;
+     width: 80%;
      margin: 20px 0;
    }
 
@@ -330,7 +345,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: #527158;
+     background: #019eaf;
    }
 
    #map figure {
@@ -354,7 +369,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: #2a423a;
+     background: #047a86;
    }
 
    #contact-section p {
@@ -368,7 +383,7 @@ address {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     background: #527158;
+     background: #019eaf;
    }
 
    #faq .content-wrapper {
@@ -397,7 +412,6 @@ address {
    /***** Footer styles *****/
 
    footer {
-     background: #202322;
      flex-direction: column;
    }
 
@@ -426,7 +440,7 @@ address {
      display: flex;
      justify-content: center;
      align-items: center;
-     background-color: #527158;
+     background-color: #da8c0e;
      border-radius: 50%;
      width: 40px;
      height: 40px;
@@ -560,6 +574,10 @@ address {
      justify-content: space-between;
      width: 100%;
    }
+
+   header .logo p {
+     font-size: 2.3em;
+    }
 
    header figure {
      width: 30%;
@@ -750,6 +768,10 @@ address {
      max-width: 960px;
    }
 
+   header .logo p {
+     font-size: 2.5em;
+    }
+
    h2 {
      font-size: 2.25em;
    }
@@ -767,7 +789,9 @@ address {
    /***** Homepage desktop styles *****/
 
    #hero-area h1 {
-     font-size: 3.75em;
+     font-size: 3.875em;
+     line-height: 1.2;
+     min-height: 600px;
      width: 80%;
    }
 
@@ -793,7 +817,9 @@ address {
    }
 
    #reviews h2 {
-     padding-bottom: 50px;
+     line-height: 1.3;
+     padding-bottom: 20px;
+     width: 90%;
    }
 
    /***** About page desktop styles *****/
